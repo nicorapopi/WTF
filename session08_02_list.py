@@ -62,3 +62,13 @@ print('grape' in mylist)    # False
 
 if 'apple' in mylist:
     print("apple is in the list")
+
+
+
+# ---------------------------------
+# การเปลี่ยนแปลงค่าข้อมูลใน list
+mylist = ['apple', 'banana', 'grape','papaya','mango']
+print(mylist)   # ['apple', 'banana', 'grape','papaya','mango']
+
+mylist[1] = 'pine apple'
+print(mylist)   # ['pine apple', 'banana', 'grape','papaya','mango']

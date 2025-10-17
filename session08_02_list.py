@@ -40,3 +40,7 @@ print(mylist[2])   # c++
 print(mylist[4])   # php
 print(mylist[-1])  # php
 print(mylist[-3])  # c++
+
+
+mylist = ['python', 'java', 'c++', 'c#', 'php']
+print(len(mylist))   # 5

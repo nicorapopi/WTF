@@ -44,3 +44,11 @@ print(mylist[-3])  # c++
 
 mylist = ['python', 'java', 'c++', 'c#', 'php']
 print(len(mylist))   # 5
+
+
+mylist = ['apple', 'banana', 'cherry', 'date', 'fig', 'grape']
+print(mylist[1:4])    # ['banana', 'cherry', 'date
+print(mylist[:3])     # ['apple', 'banana', 'cherry']
+print(mylist[2:])     # ['cherry', 'date', 'fig',
+print(mylist[-4:-1])  # ['cherry', 'date', 'fig']
+print(mylist[:])      # ['apple', 'banana', 'cherry', 'date', 'fig', 'grape']

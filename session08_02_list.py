@@ -114,3 +114,13 @@ i = 0
 while i < len(mylist):
     print(mylist[i])
     i = i + 1
+
+
+# ---------------------------------
+# เรียงข้อมูลใน list
+
+# เรียงข้อมูลตามลำดับตัวอักษร
+mylist = ["orange", "mango", "kiwi", "pineapple", "banana"]
+print(mylist)
+mylist.sort()
+print(mylist)

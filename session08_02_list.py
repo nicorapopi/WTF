@@ -149,3 +149,10 @@ mylist = [100, 50, 65, 82, 23]
 print(mylist)
 mylist.sort(reverse=True)
 print(mylist)
+
+# ---------------------------------
+# การคัดลอก list
+mylist = ['apple', 'banana', 'cherry']
+print(mylist)
+mylist2 = mylist.copy()
+print(mylist2)

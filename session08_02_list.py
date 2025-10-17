@@ -86,3 +86,9 @@ print(mylist)   # ['apple', 'fruit', 'papaya','mango']
 mylist = ['papaya', 'mango', 'cherries']
 for x in mylist:
     print(x)
+
+# ---------------------------------
+
+mylist = ['papaya', 'mango', 'cherries']
+for i in range(len(mylist)):
+    print(mylist[i])

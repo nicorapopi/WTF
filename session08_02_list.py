@@ -78,3 +78,11 @@ print(mylist)   # ['apple', 'fruit1', 'fruit2', 'papaya','mango']
 
 mylist[1:3] = ['fruit']
 print(mylist)   # ['apple', 'fruit', 'papaya','mango']
+
+
+# ---------------------------------
+# การ loop for ใน list
+
+mylist = ['papaya', 'mango', 'cherries']
+for x in mylist:
+    print(x)

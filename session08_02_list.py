@@ -15,3 +15,8 @@ print(type(mylist1))
 mylist2 = list({1,2,3})
 print(mylist2)
 print(type(mylist2))
+
+# การแปลง string เป็น list
+mylist3 = list("hello")
+print(mylist3)
+print(type(mylist3))

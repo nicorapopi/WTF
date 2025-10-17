@@ -133,3 +133,11 @@ mylist = [100, 50, 65, 82, 23]
 print(mylist)
 mylist.sort()
 print(mylist)
+
+
+# ---------------------------------
+# การเรียวข้อมูลมากไปน้อย
+mylist = ["orange", "mango", "kiwi", "pineapple", "banana"]
+print(mylist)
+mylist.sort(reverse=True)
+print(mylist)

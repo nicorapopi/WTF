@@ -23,3 +23,6 @@ print(type(mylist3))
 
 mylist = ['python', 'java', 'c++']
 print(mylist)
+
+mylist1 = [1,3,4,5,9,8]
+print(mylist1)

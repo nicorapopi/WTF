@@ -172,3 +172,17 @@ mylist1 = [10,20,30]
 for x in mylist1:
     mylist.append(x)
 print(mylist)
+
+
+
+
+
+# ---------------------------------
+# ภาคผนวก
+def input_values(prompt): # รับค่า input คั่นด้วยช่องว่าง
+    result = [int(tmp) for tmp in input(prompt).split()]
+    return result
+
+a = input_values("Enter numbers (space separated): ")
+print(a)
+print(type(a))

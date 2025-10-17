@@ -69,5 +69,12 @@ if 'apple' in mylist:
 # การเปลี่ยนแปลงค่าข้อมูลใน list
 mylist = ['apple', 'banana', 'grape','papaya','mango']
 print(mylist)   # ['apple', 'banana', 'grape','papaya','mango']
+
 mylist[1] = 'pine apple'
 print(mylist)   # ['apple', 'pine apple', 'grape','papaya','mango']
+
+mylist[1:3] = ['fruit1', 'fruit2']
+print(mylist)   # ['apple', 'fruit1', 'fruit2', 'papaya','mango']
+
+mylist[1:3] = ['fruit']
+print(mylist)   # ['apple', 'fruit', 'papaya','mango']

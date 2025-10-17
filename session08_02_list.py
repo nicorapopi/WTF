@@ -92,3 +92,12 @@ for x in mylist:
 mylist = ['papaya', 'mango', 'cherries']
 for i in range(len(mylist)):
     print(mylist[i])
+
+# ---------------------------------
+
+fruits = ['apple', 'banana', 'cherry', 'kiwi', 'mango']
+newlist = []
+for x in fruits:
+    if 'a' in x:
+        newlist.append(x)
+print(newlist)

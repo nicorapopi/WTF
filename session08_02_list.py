@@ -38,3 +38,5 @@ mylist = ['python', 'java', 'c++', 'c#', 'php']
 print(mylist[0])   # python
 print(mylist[2])   # c++
 print(mylist[4])   # php
+print(mylist[-1])  # php
+print(mylist[-3])  # c++

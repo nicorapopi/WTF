@@ -20,3 +20,6 @@ print(type(mylist2))
 mylist3 = list("hello")
 print(mylist3)
 print(type(mylist3))
+
+mylist = ['python', 'java', 'c++']
+print(mylist)

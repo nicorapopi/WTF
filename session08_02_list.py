@@ -186,3 +186,17 @@ def input_values(prompt): # รับค่า input คั่นด้วยช
 a = input_values("Enter numbers (space separated): ")
 print(a)
 print(type(a))
+
+
+
+# ---------------------------------
+# คำถามทบทวน
+# รับตัวเลขเข้ามาทางตคีบอด 10 ชุด แต่ละชุดคั่นด้วยช่องว่าง แล้วนำมาเรียงกันจากน้อยไปมาก และ เรื่ยงจากมากไปน้อย แล้ววนรับข้อมูลชุดใหม่ จนกระทั่งกดเครื่องหมาย \ จึงออกจาก โปรแกรม
+
+while True:
+    nums = input("enter number or / to exit: ")
+    if nums == '/':
+        break
+    numlist = [int(x)for x in nums.split()]
+    print("น้อยไปมาก: ",sorted(nums))
+    print("มากไปน้อย: ",sorted(nums, reverse=True))

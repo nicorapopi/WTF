@@ -156,3 +156,19 @@ mylist = ['apple', 'banana', 'cherry']
 print(mylist)
 mylist2 = mylist.copy()
 print(mylist2)
+
+# ---------------------------------
+# การเชื่อมต่อ list โดย +
+print(mylist)
+print(mylist2)
+mylist3 = mylist + mylist2
+print(mylist3)
+
+# ---------------------------------
+# การเชื่อมต่อโดยใช้ append()
+print(mylist)
+mylist = ['apple', 'banana', 'cherry']
+mylist1 = [10,20,30]
+for x in mylist1:
+    mylist.append(x)
+print(mylist)

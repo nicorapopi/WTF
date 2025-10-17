@@ -52,3 +52,13 @@ print(mylist[:3])     # ['apple', 'banana', 'cherry']
 print(mylist[2:])     # ['cherry', 'date', 'fig',
 print(mylist[-4:-1])  # ['cherry', 'date', 'fig']
 print(mylist[:])      # ['apple', 'banana', 'cherry', 'date', 'fig', 'grape']
+
+# ---------------------------------
+# การตรวจสอบรายการใน list
+
+mylist = ['apple', 'banana', 'cherry']
+print('banana' in mylist)   # True
+print('grape' in mylist)    # False
+
+if 'apple' in mylist:
+    print("apple is in the list")

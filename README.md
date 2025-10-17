@@ -1,1 +1,1 @@
-# python-year-1
+# โปรแกรม python ปี 1 siet com kmitl

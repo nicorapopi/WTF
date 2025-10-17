@@ -29,3 +29,12 @@ print(mylist1)
 
 mylist2 = ["hello",1,False,30,"mall"]
 print(mylist2)
+
+
+# ---------------------------------
+# การเข้าถึงข้อมูลใน list
+
+mylist = ['python', 'java', 'c++', 'c#', 'php']
+print(mylist[0])   # python
+print(mylist[2])   # c++
+print(mylist[4])   # php

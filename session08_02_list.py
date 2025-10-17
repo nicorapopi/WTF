@@ -9,4 +9,5 @@ print(type(mylist))
 # การแปลง tuple เป็น list
 mylist1 = list((1,2,3))
 print(mylist1)
+print(type(mylist1))
 

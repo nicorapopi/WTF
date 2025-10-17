@@ -26,3 +26,6 @@ print(mylist)
 
 mylist1 = [1,3,4,5,9,8]
 print(mylist1)
+
+mylist2 = ["hello",1,False,30,"mall"]
+print(mylist2)

@@ -141,3 +141,11 @@ mylist = ["orange", "mango", "kiwi", "pineapple", "banana"]
 print(mylist)
 mylist.sort(reverse=True)
 print(mylist)
+
+
+# ---------------------------------
+# การเรียวข้อมูลตัวเลขมากไปน้อย
+mylist = [100, 50, 65, 82, 23]
+print(mylist)
+mylist.sort(reverse=True)
+print(mylist)

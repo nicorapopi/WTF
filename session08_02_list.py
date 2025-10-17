@@ -124,3 +124,12 @@ mylist = ["orange", "mango", "kiwi", "pineapple", "banana"]
 print(mylist)
 mylist.sort()
 print(mylist)
+
+
+
+# ---------------------------------
+# เรียงข้อมูลตามลำดับตัวเลข
+mylist = [100, 50, 65, 82, 23]
+print(mylist)
+mylist.sort()
+print(mylist)

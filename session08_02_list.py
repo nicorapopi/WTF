@@ -107,3 +107,10 @@ print(newlist)
 
 newlist = [x for x in fruits if 'a' in x]
 print(newlist)
+
+# ---------------------------------
+mylist = ['papaya', 'mango', 'cherries']
+i = 0
+while i < len(mylist):
+    print(mylist[i])
+    i = i + 1

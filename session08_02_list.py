@@ -197,6 +197,14 @@ while True:
     nums = input("enter number or / to exit: ")
     if nums == '/':
         break
-    numlist = [int(x)for x in nums.split()]
+    num = [int(x)for x in nums.split()]
     print("น้อยไปมาก: ",sorted(nums))
     print("มากไปน้อย: ",sorted(nums, reverse=True))
+
+
+# ---------------------------------
+# รับตัวเลขเข้ามา 10 ชุด แล้วหาจำนวนทีน้อยที่สุด มากที่สุด
+nums = input("enter number: ")
+num = [int(x) for x in nums.split()]
+print("min: ",min(num))
+print("max: ",max(num))

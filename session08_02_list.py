@@ -11,3 +11,7 @@ mylist1 = list((1,2,3))
 print(mylist1)
 print(type(mylist1))
 
+# การแปลง set เป็น list
+mylist2 = list({1,2,3})
+print(mylist2)
+print(type(mylist2))

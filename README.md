@@ -1,2 +1,2 @@
-# python ปี 1 siet com kmitl
-# อย่าหาทำ
+steam code 1069825396
+dbd player
